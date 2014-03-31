@@ -1,0 +1,13 @@
+= form_tag '/games/frame' do
+  h3 
+    = "How many pins have you Knocked?"
+  .knocked_pins
+    = hidden_field_tag :frame_number, @game.frame_number if @game
+    #block-ball1.input-block
+      = label_tag :ball1, '1st ball:'
+      = text_field_tag :ball1, 0, {size: 3, maxlength: 2}
+    #block-ball2.input-block
+      = label_tag :ball2, '2nd ball'
+      = text_field_tag :ball2, 0, {size: 3, maxlength: 2} 
+    
+    = submit_tag "Next Game"

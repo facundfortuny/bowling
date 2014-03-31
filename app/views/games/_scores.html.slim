@@ -1,0 +1,16 @@
+table#results
+  tr
+    td.header Frame:
+  	- (1..@game.frame_number).each do |frHead|
+  		td
+  			= frHead
+    td
+      | TOTAL
+  tr
+    td.header Score:
+	- @game.frame.each do |frScore|
+		- if frScore
+			td
+				= frScore[:score]
+    td.total
+      = @game.total
