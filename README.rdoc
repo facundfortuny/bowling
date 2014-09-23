@@ -1,3 +1,17 @@
 == Bowling Game Ruby on Rails
 
-Rails web-application that simulates a Bowling game.
+Ruby on Rails web-application that simulates a Bowling game.
+
+Developed using:
+
+Slim 
+
+SASS 
+
+jQuery 
+
+Boostrap 
+
+Ruby on Rails
+
+SQLite
