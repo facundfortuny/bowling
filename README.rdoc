@@ -4,14 +4,14 @@ Ruby on Rails web-application that simulates a Bowling game.
 
 Developed using:
 
-Slim 
+- Slim 
 
-SASS 
+- SASS 
 
-jQuery 
+- jQuery 
 
-Boostrap 
+- Boostrap 
 
-Ruby on Rails
+- Ruby on Rails
 
-SQLite
+- SQLite
